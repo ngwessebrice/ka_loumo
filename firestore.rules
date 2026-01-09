@@ -1,0 +1,131 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function userDoc(uid) {
+      return get(/databases/$(database)/documents/users/$(uid)).data;
+    }
+
+    function isParticipant(chatId) {
+      return signedIn()
+        && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants;
+    }
+
+    // =========================
+    // USERS
+    // =========================
+    match /users/{uid} {
+      allow read: if true;
+
+      // Owner can create their own doc
+      allow create: if signedIn() && request.auth.uid == uid;
+
+      // Owner can update their profile (NOT rating fields from client)
+      allow update: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          "name","email","phone","photoUrl","bio","location","listingLimit","trialUsed",
+          "updatedAt"
+        ]);
+
+      // No deletes in V1 (optional)
+      allow delete: if false;
+
+      match /favorites/{favId} {
+        allow read, write: if signedIn() && request.auth.uid == uid;
+      }
+    }
+
+    // =========================
+    // PRODUCTS
+    // =========================
+    match /products/{productId} {
+  allow read: if true;
+
+  // Create
+  allow create: if signedIn()
+    && request.auth.uid == request.resource.data.ownerId;
+
+  // Update (owner only + ownerId cannot change)
+  allow update: if signedIn()
+    && request.auth.uid == resource.data.ownerId
+    && request.resource.data.ownerId == resource.data.ownerId;
+
+  // Delete (owner only)
+  allow delete: if signedIn()
+    && request.auth.uid == resource.data.ownerId;
+}
+
+    // =========================
+    // CHATS
+    // =========================
+    match /chats/{chatId} {
+      allow read: if signedIn() && request.auth.uid in resource.data.participants;
+
+      allow create: if signedIn()
+        && request.auth.uid in request.resource.data.participants;
+
+      // update rules: participants only + restrict sensitive fields
+      allow update: if signedIn()
+        && request.auth.uid in resource.data.participants
+        && (
+          // seller can mark completed (active -> completed)
+          (
+            request.auth.uid == resource.data.sellerId
+            && resource.data.status == "active"
+            && request.resource.data.status == "completed"
+            && request.resource.data.diff(resource.data).changedKeys()
+              .hasOnly(["status","updatedAt"])
+          )
+          ||
+          // buyer can mark rated true (optional, since you do it in transaction)
+          (
+            request.auth.uid == resource.data.buyerId
+            && request.resource.data.rated == true
+            && request.resource.data.diff(resource.data).changedKeys()
+              .hasOnly(["rated","updatedAt"])
+          )
+          ||
+          // allow normal chat metadata updates like lastMessage/updatedAt/hiddenFor
+          (
+            request.resource.data.diff(resource.data).changedKeys()
+              .hasOnly(["lastMessage","updatedAt","hiddenFor"])
+          )
+        );
+
+      allow delete: if false;
+
+      match /messages/{msgId} {
+        allow read, write: if signedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants;
+      }
+    }
+
+    // =========================
+    // REVIEWS
+    // =========================
+    match /reviews/{reviewId} {
+      allow read: if true;
+
+      allow create: if signedIn()
+        && request.resource.data.chatId is string
+        && exists(/databases/$(database)/documents/chats/$(request.resource.data.chatId))
+        && isParticipant(request.resource.data.chatId)
+        && get(/databases/$(database)/documents/chats/$(request.resource.data.chatId)).data.status == "completed"
+        && get(/databases/$(database)/documents/chats/$(request.resource.data.chatId)).data.rated != true
+        && request.resource.data.buyerId == request.auth.uid
+        && request.resource.data.sellerId is string
+        && request.resource.data.sellerId != request.auth.uid
+        && request.resource.data.productId is string
+        && request.resource.data.rating is int
+        && request.resource.data.rating >= 1
+        && request.resource.data.rating <= 5;
+
+      allow update, delete: if false;
+    }
+  }
+}

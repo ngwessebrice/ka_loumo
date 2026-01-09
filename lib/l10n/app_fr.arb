@@ -1,0 +1,418 @@
+{
+  "appTitle": "Ka-Loumo",
+  "chat": "Discussion",
+  "messages": "Messages",
+  "chatWithSeller": "Discuter avec le vendeur",
+  "productSold": "Produit vendu",
+  "markAsSold": "Marquer comme vendu",
+  "openingChat": "Ouverture de la discussion...",
+  "noMessagesYet": "Aucun message pour l’instant",
+  "typeMessage": "Écrire un message...",
+  "sold": "VENDU",
+  "description": "Description",
+  "sellerInfo": "Informations du vendeur",
+  "searchProducts": "Rechercher un produit...",
+  "onboardingWelcomeTitle": "Bienvenue sur Ka-Loumo",
+  "onboardingWelcomeDesc": "La marketplace premium de Guinée Conakry.",
+  "onboardingBuySellTitle": "Achetez et vendez facilement",
+  "onboardingBuySellDesc": "Publiez rapidement — trouvez des clients encore plus vite.",
+  "onboardingChatTitle": "Discutez et connectez-vous",
+  "onboardingChatDesc": "Négociez, discutez et finalisez vos ventes en toute sécurité.",
+
+  "btnNext": "Suivant",
+  "btnGetStarted": "Commencer",
+  "btnSkip": "Passer",
+
+  "loginSubtitle": "Connectez-vous à votre marketplace",
+  "welcomeBack": "Bon retour",
+  "loginHint": "Connectez-vous avec votre numéro ou votre email.",
+
+  "phone": "Téléphone",
+  "email": "Email",
+
+  "phoneNumber": "Numéro de téléphone",
+  "sendOtp": "Envoyer le code",
+
+  "password": "Mot de passe",
+  "forgotPassword": "Mot de passe oublié ?",
+  "login": "Connexion",
+
+  "noAccount": "Vous n’avez pas de compte ?",
+  "register": "Créer un compte",
+
+  "enterEmailFirst": "Entrez d’abord votre email",
+  "resetLinkSent": "Lien de réinitialisation envoyé à {email}",
+  "resetFailed": "Impossible d’envoyer l’email de réinitialisation",
+
+  "emailAndPasswordRequired": "Email et mot de passe requis",
+  "emailLoginFailed": "Connexion email échouée",
+  "phoneEnterNumber": "Entrez votre numéro de téléphone",
+  "otpFailed": "Échec de l’envoi du code",
+
+  "language": "Langue",
+
+  "@resetLinkSent": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+
+  "registerTitle": "Créer votre compte",
+  "registerSubtitle": "Vendez et achetez sur Ka-Loumo.",
+  "registerFullName": "Nom complet",
+  "registerEmailOptional": "E-mail (optionnel)",
+  "registerPhone224": "Numéro de téléphone (+224)",
+  "registerPassword": "Mot de passe",
+  "registerConfirmPassword": "Confirmer le mot de passe",
+  "registerCreateAccountBtn": "Créer un compte",
+  "registerAlreadyHaveAccount": "Vous avez déjà un compte ?",
+
+  "msgFullNameRequired": "Le nom complet est requis",
+  "msgPhoneRequired": "Le numéro de téléphone est requis",
+  "msgPhoneMustStart224": "Le numéro doit commencer par +224",
+  "msgPasswordRequired": "Le mot de passe est requis",
+  "msgPasswordsDoNotMatch": "Les mots de passe ne correspondent pas",
+  "msgAccountCreated": "Compte créé avec succès 🎉",
+  "msgRegistrationFailed": "Échec de l’inscription",
+
+  "otpVerifyPhoneTitle": "Vérifier le téléphone",
+  "otpEnterVerificationCodeTitle": "Saisissez le code de vérification",
+  "otpSentTo": "Nous avons envoyé un code au {phone}",
+  "@otpSentTo": {
+    "placeholders": {
+      "phone": { "type": "String" }
+    }
+  },
+  "otpCodeLabel": "Code à 6 chiffres",
+  "otpVerifyBtn": "Vérifier",
+  "otpEnterCode": "Saisissez le code",
+  "otpInvalidCode": "Code invalide",
+
+
+  "catAll": "Tous",
+  "catPhones": "Téléphones",
+  "catFashion": "Mode",
+  "catCars": "Voitures",
+  "catElectronics": "Électronique",
+  "popularItems": "Articles populaires",
+  "noProductsFound": "Aucun produit trouvé",
+  "badgeNew": "Neuf",
+
+  "explore": "Explorer",
+  "noResults": "Aucun résultat",
+  "untitled": "Sans titre",
+  "catRealEstate": "Immobilier",
+
+
+  "home": "Accueil",
+  "profile": "Profil",
+  "addProduct": "Ajouter un produit",
+
+
+
+  "failedToLoadChats": "Impossible de charger les conversations",
+  "noConversationsYet": "Aucune conversation pour le moment",
+  "deleteConversationTitle": "Supprimer la conversation ?",
+  "deleteConversationBody": "Cela la retirera de votre boîte de réception. Vous pourrez la recréer plus tard en discutant à nouveau.",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "userFallback": "Utilisateur",
+  "productFallback": "Produit",
+
+  "timeNow": "maintenant",
+
+
+  "upload": "Publier",
+
+  "photos": "Photos",
+  "details": "Détails",
+
+  "title": "Titre",
+  "titleHint": "ex. iPhone 13 Pro Max",
+  "titleRequired": "Le titre est obligatoire.",
+  "titleTooShort": "Le titre est trop court.",
+
+  "priceGNF": "Prix (GNF)",
+  "priceHint": "ex. 650000",
+  "priceRequired": "Le prix est obligatoire.",
+  "enterValidPrice": "Entrez un prix valide.",
+
+
+  "descriptionHint": "Ajoutez des détails : état, accessoires, défauts, raison de vente…",
+  "descriptionRequired": "La description est obligatoire.",
+  "descriptionTooShort": "La description est trop courte.",
+
+  "categoryAndLocation": "Catégorie et lieu",
+  "category": "Catégorie",
+  "condition": "État",
+  "location": "Lieu",
+
+  "addProductTip": "Astuce : de bonnes photos + des détails clairs = plus d’acheteurs.",
+
+  "addAtLeastOnePhoto": "Veuillez ajouter au moins 1 photo.",
+  "productUploaded": "Produit publié ✔",
+  "uploadFailed": "Échec de l’envoi",
+
+  "listingLimitReached": "Limite d’annonces atteinte",
+  "freeLimitReached": "Le plan gratuit permet seulement",
+  "proLimitReached": "Vous avez atteint votre limite Pro",
+
+  "upgradeNotAddedYet": "L’écran d’abonnement n’est pas encore ajouté (V1).",
+  "upgrade": "Passer au Pro",
+  "ok": "OK",
+
+  "addUpTo8Photos": "Ajoutez jusqu’à 8 photos",
+  "coverPhotoTip": "Astuce : la première photo devient la couverture.",
+  "chooseFromGallery": "Choisir dans la galerie",
+  "takePhoto": "Prendre une photo",
+  "add": "Ajouter",
+
+
+
+  "productDetailsTitle": "Détails du produit",
+  "failedToLoadProduct": "Impossible de charger le produit",
+  "productNotFound": "Produit introuvable",
+
+  "soldUnavailable": "VENDU • INDISPONIBLE",
+  "descriptionTitle": "Description",
+  "sellerTitle": "Vendeur",
+
+
+  "markAsSoldTitle": "Marquer comme vendu ?",
+  "markAsSoldBody": "Cela va désactiver le chat et marquer ce produit comme vendu.",
+
+
+
+
+  "loadingSeller": "Chargement du vendeur...",
+  "sellerFallback": "Vendeur",
+  "tapToViewProfile": "Appuyez pour voir le profil",
+
+
+
+  "sellerProfileTitle": "Profil du vendeur",
+  "sellerNotFound": "Vendeur introuvable",
+  "sellerRatingLabel": "Note du vendeur",
+  "listingsTitle": "Annonces",
+  "failedToLoadProducts": "Impossible de charger les produits",
+  "noProductsFromSeller": "Aucun produit publié par ce vendeur",
+  "soldLabel": "VENDU",
+
+
+  "editProfile": "Modifier le profil",
+  "profilePhoto": "Photo de profil",
+  "profilePhotoHint": "Une photo claire inspire confiance",
+
+  "change": "Modifier",
+  "remove": "Supprimer",
+
+  "fullName": "Nom complet",
+
+  "bio": "Bio",
+
+  "saveChanges": "Enregistrer les modifications",
+
+  "notLoggedIn": "Utilisateur non connecté",
+  "failedToLoadProfile": "Impossible de charger le profil",
+  "nameRequired": "Le nom est obligatoire",
+  "profileUpdated": "Profil mis à jour ✔",
+  "updateFailed": "Échec de la mise à jour : {error}",
+
+
+  "logoutTitle": "Se déconnecter ?",
+  "logoutBody": "Voulez-vous vraiment vous déconnecter de votre compte ?",
+  "logout": "Se déconnecter",
+  "logoutFailed": "Échec de la déconnexion : {error}",
+  "@logoutFailed": { "placeholders": { "error": {} } },
+
+
+  "noProfileFound": "Aucun profil trouvé",
+  "unknownUser": "Inconnu",
+
+  "pro": "PRO",
+
+  "listings": "Annonces",
+  "rating": "Note",
+  "ratingCountLabel": "({count} avis)",
+  "@ratingCountLabel": { "placeholders": { "count": { "type": "int" } } },
+
+  "upgradeToPro": "Passer à Pro",
+  "myListings": "Mes annonces",
+  "favorites": "Favoris",
+  "settings": "Paramètres",
+  "helpSupport": "Aide & support",
+
+  "help": "Aide",
+  "whatsapp": "WhatsApp",
+  "call": "Appeler",
+
+
+  "helpNeedHelpTitle": "Besoin d’aide ?",
+  "helpNeedHelpSubtitle": "Contactez-nous directement. Nous répondons rapidement.",
+
+  "helpWhatsappMessage": "Bonjour le support Ka-Loumo, j’ai besoin d’aide.",
+
+  "helpEmailSubject": "Support Ka-Loumo",
+  "helpEmailBody": "Bonjour,\n\nJ’ai besoin d’aide avec Ka-Loumo.\n\nMerci.",
+
+  "helpFooter": "Ka-Loumo • Guinée 🇬🇳",
+
+  "unableToOpenAction": "Impossible d’ouvrir cette action",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "checkoutCouldNotStart": "Impossible de démarrer le paiement.",
+  "unableToOpenPaymentPage": "Impossible d’ouvrir la page de paiement.",
+  "paymentError": "Erreur de paiement",
+
+  "upgradeToProTitle": "Passer en Pro ?",
+  "upgradeToProBody": "Vous serez redirigé vers Stripe pour terminer le paiement.\n\nAprès le paiement, le mode Pro s’active automatiquement.",
+  "continueLabel": "Continuer",
+
+  "youAreOnPro": "Vous êtes en Pro",
+  "youAreOnFree": "Vous êtes en Gratuit",
+  "activeListingsLabel": "Annonces actives : {active} / {limit}",
+  "@activeListingsLabel": {
+    "placeholders": {
+      "active": { "type": "int" },
+      "limit": { "type": "int" }
+    }
+  },
+
+  "planFreeTitle": "Gratuit",
+  "planFreePrice": "0 GNF",
+  "planFreeBadge": "Par défaut",
+  "planFreeFeature1": "Jusqu’à 3 annonces actives",
+  "planFreeFeature2": "Chat avec acheteurs/vendeurs",
+  "planFreeFeature3": "Profil de base",
+
+  "planProTitle": "Pro",
+  "planProPrice": "Stripe",
+  "planProBadge": "Recommandé",
+  "planProFeature1": "Jusqu’à 50 annonces actives",
+  "planProFeature2": "Plus de visibilité (bientôt)",
+  "planProFeature3": "Badge vendeur (bientôt)",
+
+  "alreadyPro": "Déjà Pro ✅",
+  "upgradeToProButton": "Passer en Pro",
+  "proAutoActivatesHint": "Le mode Pro s’active automatiquement après confirmation Stripe.",
+
+
+
+
+
+
+
+
+  "favoritesTitle": "Favoris",
+  "failedToLoadFavorites": "Impossible de charger les favoris.",
+
+  "favoritesEmptyTitle": "Aucun favori pour le moment",
+  "favoritesEmptySubtitle": "Commence à ajouter les articles que tu aimes ❤️",
+
+
+
+
+
+  "myListingsTitle": "Mes annonces",
+  "userNotLoggedIn": "Utilisateur non connecté",
+  "failedToLoadListings": "Impossible de charger les annonces.",
+  "noListingsYet": "Aucune annonce pour le moment",
+  "listingsEmptySubtitle": "Tes produits apparaîtront ici",
+
+  "deleteProductTitle": "Supprimer le produit",
+  "deleteProductBody": "Voulez-vous vraiment supprimer cette annonce ? Cette action est irréversible.",
+  "listingDeletedSuccess": "Annonce supprimée ✅",
+  "deleteFailed": "Échec de la suppression",
+
+  "edit": "Modifier",
+
+
+
+
+
+
+  "settingsTitle": "Paramètres",
+  "settingsGeneral": "Général",
+  "settingsAccount": "Compte",
+
+  "settingsLanguageTitle": "Langue",
+  "settingsLanguageSubtitle": "Changer la langue de l’application",
+
+  "settingsDarkMode": "Mode sombre",
+
+  "settingsChangePasswordSubtitle": "Mettre à jour votre mot de passe",
+
+  "privacyPolicyTitle": "Politique de confidentialité",
+  "privacyPolicySubtitle": "Lire notre politique",
+
+  "termsTitle": "Conditions d’utilisation",
+  "termsSubtitle": "Lire les conditions d’utilisation",
+
+  "unableToOpenLink": "Impossible d’ouvrir le lien",
+
+  "changePasswordTitle": "Changer le mot de passe",
+  "currentPassword": "Mot de passe actuel",
+  "newPassword": "Nouveau mot de passe",
+  "confirmNewPassword": "Confirmer le nouveau mot de passe",
+  "showPasswords": "Afficher les mots de passe",
+
+  "fillAllFields": "Remplissez tous les champs",
+  "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+  "passwordMin6": "Le mot de passe doit contenir au moins 6 caractères",
+
+  "passwordUpdated": "Mot de passe mis à jour ✅",
+
+
+  "noEmailPasswordLogin": "Ce compte n’utilise pas la connexion email/mot de passe.",
+
+  "failed": "Échec",
+  "error": "Erreur",
+
+
+  "update": "Mettre à jour",
+
+
+
+
+
+
+  "selectLanguage": "Choisir la langue",
+  "save": "Enregistrer",
+  "languageEnglish": "Anglais",
+  "languageFrench": "Français",
+
+
+  "catHome": "Maison",
+  "catOthers": "Autres",
+
+  "newCondition": "Neuf",
+  "used": "Occasion",
+
+  "msgLoginRequired": "Veuillez vous connecter pour continuer.",
+
+
+  "paymentSuccessTitle": "Paiement réussi",
+  "paymentSuccessBody": "Votre mise à niveau a réussi. Les fonctionnalités Pro seront activées sous peu.",
+  "paymentCanceledTitle": "Paiement annulé",
+  "paymentCanceledBody": "Le processus de mise à niveau a été annulé. Aucun paiement n’a été effectué.",
+  "done": "Terminé",
+  "back": "Retour"
+
+
+
+}
+
+

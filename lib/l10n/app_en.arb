@@ -1,0 +1,414 @@
+{
+  "appTitle": "Ka-Loumo",
+  "chat": "Chat",
+  "messages": "Messages",
+  "chatWithSeller": "Chat with Seller",
+  "productSold": "Product Sold",
+  "markAsSold": "Mark as Sold",
+  "openingChat": "Opening chat...",
+  "noMessagesYet": "No messages yet",
+  "typeMessage": "Type a message...",
+  "sold": "SOLD",
+  "description": "Description",
+  "sellerInfo": "Seller Info",
+  "searchProducts": "Search products...",
+  "onboardingWelcomeTitle": "Welcome to Ka-Loumo",
+  "onboardingWelcomeDesc": "The premium marketplace of Guinea Conakry.",
+  "onboardingBuySellTitle": "Buy & Sell Easily",
+  "onboardingBuySellDesc": "Publish items fast — find customers even faster.",
+  "onboardingChatTitle": "Chat & Connect",
+  "onboardingChatDesc": "Negotiate, chat, and complete deals securely.",
+
+  "btnNext": "Next",
+  "btnGetStarted": "Get Started",
+  "btnSkip": "Skip",
+
+  "loginSubtitle": "Connect to your marketplace",
+  "welcomeBack": "Welcome back",
+  "loginHint": "Login using your phone number or email.",
+
+  "phone": "Phone",
+  "email": "Email",
+
+  "phoneNumber": "Phone Number",
+  "sendOtp": "Send OTP",
+
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "login": "Login",
+
+  "noAccount": "Don't have an account?",
+  "register": "Register",
+
+  "enterEmailFirst": "Enter your email first",
+  "resetLinkSent": "Password reset link sent to {email}",
+  "resetFailed": "Failed to send reset email",
+
+  "emailAndPasswordRequired": "Email and password required",
+  "emailLoginFailed": "Email login failed",
+  "phoneEnterNumber": "Enter your phone number",
+  "otpFailed": "Failed to send OTP",
+
+  "language": "Language",
+
+  "@resetLinkSent": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+
+
+  "registerTitle": "Create your account",
+  "registerSubtitle": "Sell & buy on Ka-Loumo.",
+  "registerFullName": "Full name",
+  "registerEmailOptional": "Email (optional)",
+  "registerPhone224": "Phone number (+224)",
+  "registerPassword": "Password",
+  "registerConfirmPassword": "Confirm password",
+  "registerCreateAccountBtn": "Create account",
+  "registerAlreadyHaveAccount": "Already have an account?",
+
+  "msgFullNameRequired": "Full name is required",
+  "msgPhoneRequired": "Phone number is required",
+  "msgPhoneMustStart224": "Phone must start with +224",
+  "msgPasswordRequired": "Password is required",
+  "msgPasswordsDoNotMatch": "Passwords do not match",
+  "msgAccountCreated": "Account created successfully 🎉",
+  "msgRegistrationFailed": "Registration failed",
+
+
+
+  "otpVerifyPhoneTitle": "Verify Phone",
+  "otpEnterVerificationCodeTitle": "Enter verification code",
+  "otpSentTo": "We sent a code to {phone}",
+  "@otpSentTo": {
+    "placeholders": {
+      "phone": { "type": "String" }
+    }
+  },
+  "otpCodeLabel": "6-digit code",
+  "otpVerifyBtn": "Verify",
+  "otpEnterCode": "Enter the code",
+  "otpInvalidCode": "Invalid code",
+
+
+
+  "catAll": "All",
+  "catPhones": "Phones",
+  "catFashion": "Fashion",
+  "catCars": "Cars",
+  "catElectronics": "Electronics",
+  "popularItems": "Popular Items",
+  "noProductsFound": "No products found",
+  "badgeNew": "New",
+
+  "explore": "Explore",
+  "noResults": "No Results",
+  "untitled": "Untitled",
+  "catRealEstate": "Real Estate",
+
+
+  "home": "Home",
+  "profile": "Profile",
+  "addProduct": "Add product",
+
+
+
+
+
+  "failedToLoadChats": "Failed to load chats",
+  "noConversationsYet": "No conversations yet",
+  "deleteConversationTitle": "Delete conversation?",
+  "deleteConversationBody": "This will remove it from your inbox. You can recreate it later by chatting again.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "userFallback": "User",
+  "productFallback": "Product",
+
+  "timeNow": "now",
+
+
+
+
+
+  "upload": "Upload",
+
+  "photos": "Photos",
+  "details": "Details",
+
+  "title": "Title",
+  "titleHint": "e.g. iPhone 13 Pro Max",
+  "titleRequired": "Title is required.",
+  "titleTooShort": "Title is too short.",
+
+  "priceGNF": "Price (GNF)",
+  "priceHint": "e.g. 650000",
+  "priceRequired": "Price is required.",
+  "enterValidPrice": "Enter a valid price.",
+
+
+  "descriptionHint": "Add details: condition, accessories, defects, reason for sale…",
+  "descriptionRequired": "Description is required.",
+  "descriptionTooShort": "Description is too short.",
+
+  "categoryAndLocation": "Category & Location",
+  "category": "Category",
+  "condition": "Condition",
+  "location": "Location",
+
+  "addProductTip": "Tip: better photos + clear details = more buyers.",
+
+  "addAtLeastOnePhoto": "Please add at least 1 photo.",
+  "productUploaded": "Product uploaded ✔",
+  "uploadFailed": "Upload failed",
+
+  "listingLimitReached": "Listing limit reached",
+  "freeLimitReached": "Free plan allows only",
+  "proLimitReached": "You have reached your Pro limit",
+  "upgradeToPro": "Upgrade to Pro to post more.",
+  "upgradeNotAddedYet": "Upgrade screen not added yet (V1).",
+  "upgrade": "Upgrade",
+  "ok": "OK",
+
+  "addUpTo8Photos": "Add up to 8 photos",
+  "coverPhotoTip": "Tip: first photo becomes your cover.",
+  "chooseFromGallery": "Choose from gallery",
+  "takePhoto": "Take a photo",
+  "add": "Add",
+
+
+
+  "productDetailsTitle": "Product Details",
+  "failedToLoadProduct": "Failed to load product",
+  "productNotFound": "Product not found",
+
+  "soldUnavailable": "SOLD • UNAVAILABLE",
+  "descriptionTitle": "Description",
+  "sellerTitle": "Seller",
+
+
+  "markAsSoldTitle": "Mark as sold?",
+  "markAsSoldBody": "This will disable chat and mark this product as sold.",
+
+
+
+
+  "loadingSeller": "Loading seller...",
+  "sellerFallback": "Seller",
+  "tapToViewProfile": "Tap to view profile",
+
+
+  "sellerProfileTitle": "Seller Profile",
+  "sellerNotFound": "Seller not found",
+  "sellerRatingLabel": "Seller rating",
+  "listingsTitle": "Listings",
+  "failedToLoadProducts": "Failed to load products",
+  "noProductsFromSeller": "No products from this seller",
+  "soldLabel": "SOLD",
+
+
+
+
+  "editProfile": "Edit Profile",
+  "profilePhoto": "Profile photo",
+  "profilePhotoHint": "A clear photo helps build trust",
+
+  "change": "Change",
+  "remove": "Remove",
+
+  "fullName": "Full Name",
+
+  "bio": "Bio",
+
+  "saveChanges": "Save Changes",
+
+  "notLoggedIn": "Not logged in",
+  "failedToLoadProfile": "Failed to load profile",
+  "nameRequired": "Name is required",
+  "profileUpdated": "Profile updated ✔",
+  "updateFailed": "Update failed: {error}",
+
+
+
+
+
+
+
+
+
+
+  "logoutTitle": "Logout?",
+  "logoutBody": "Are you sure you want to log out of your account?",
+  "logout": "Logout",
+  "logoutFailed": "Logout failed: {error}",
+  "@logoutFailed": { "placeholders": { "error": {} } },
+
+
+  "noProfileFound": "No profile found",
+  "unknownUser": "Unknown",
+
+  "pro": "PRO",
+
+  "listings": "Listings",
+  "rating": "Rating",
+  "ratingCountLabel": "({count} ratings)",
+  "@ratingCountLabel": { "placeholders": { "count": { "type": "int" } } },
+
+
+  "myListings": "My Listings",
+  "favorites": "Favorites",
+  "settings": "Settings",
+  "helpSupport": "Help & Support",
+
+
+  "help": "Help",
+  "whatsapp": "WhatsApp",
+  "call": "Call",
+
+
+  "helpNeedHelpTitle": "Need help?",
+  "helpNeedHelpSubtitle": "Contact us directly. We respond fast.",
+
+  "helpWhatsappMessage": "Hello Ka-Loumo Support, I need help.",
+
+  "helpEmailSubject": "Ka-Loumo Support",
+  "helpEmailBody": "Hello,\n\nI need help with Ka-Loumo.\n\nThanks.",
+
+  "helpFooter": "Ka-Loumo • Guinea 🇬🇳",
+
+  "unableToOpenAction": "Unable to open this action",
+
+
+
+
+
+
+
+
+  "checkoutCouldNotStart": "Could not start checkout.",
+  "unableToOpenPaymentPage": "Unable to open payment page.",
+  "paymentError": "Payment error",
+
+  "upgradeToProTitle": "Upgrade to Pro?",
+  "upgradeToProBody": "You’ll be redirected to Stripe to complete payment.\n\nAfter successful payment, Pro is activated automatically.",
+  "continueLabel": "Continue",
+
+  "youAreOnPro": "You're on Pro",
+  "youAreOnFree": "You're on Free",
+  "activeListingsLabel": "Active listings: {active} / {limit}",
+  "@activeListingsLabel": {
+    "placeholders": {
+      "active": { "type": "int" },
+      "limit": { "type": "int" }
+    }
+  },
+
+  "planFreeTitle": "Free",
+  "planFreePrice": "0 GNF",
+  "planFreeBadge": "Default",
+  "planFreeFeature1": "Post up to 3 active listings",
+  "planFreeFeature2": "Chat with buyers/sellers",
+  "planFreeFeature3": "Basic profile",
+
+  "planProTitle": "Pro",
+  "planProPrice": "Stripe",
+  "planProBadge": "Recommended",
+  "planProFeature1": "Post up to 50 active listings",
+  "planProFeature2": "More visibility (later)",
+  "planProFeature3": "Seller badge (later)",
+
+  "alreadyPro": "Already Pro ✅",
+  "upgradeToProButton": "Upgrade to Pro",
+  "proAutoActivatesHint": "Pro activates automatically after Stripe confirms payment.",
+
+
+
+
+
+  "favoritesTitle": "Favorites",
+  "failedToLoadFavorites": "Failed to load favorites.",
+
+  "favoritesEmptyTitle": "No favorites yet",
+  "favoritesEmptySubtitle": "Start adding items you like ❤️",
+
+
+  "myListingsTitle": "My Listings",
+  "userNotLoggedIn": "User not logged in",
+  "failedToLoadListings": "Failed to load listings.",
+  "noListingsYet": "No listings yet",
+  "listingsEmptySubtitle": "Your products will appear here",
+
+  "deleteProductTitle": "Delete product",
+  "deleteProductBody": "Are you sure you want to delete this listing? This action cannot be undone.",
+  "listingDeletedSuccess": "Listing deleted ✅",
+  "deleteFailed": "Delete failed",
+
+  "edit": "Edit",
+
+
+  "settingsTitle": "Settings",
+  "settingsGeneral": "General",
+  "settingsAccount": "Account",
+
+  "settingsLanguageTitle": "Language",
+  "settingsLanguageSubtitle": "Change app language",
+
+  "settingsDarkMode": "Dark Mode",
+
+  "settingsChangePasswordSubtitle": "Update your password",
+
+  "privacyPolicyTitle": "Privacy Policy",
+  "privacyPolicySubtitle": "Read our policy",
+
+  "termsTitle": "Terms",
+  "termsSubtitle": "Read terms of use",
+
+  "unableToOpenLink": "Unable to open link",
+
+  "changePasswordTitle": "Change Password",
+  "currentPassword": "Current password",
+  "newPassword": "New password",
+  "confirmNewPassword": "Confirm new password",
+  "showPasswords": "Show passwords",
+
+  "fillAllFields": "Fill all fields",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "passwordMin6": "Password must be at least 6 characters",
+
+  "passwordUpdated": "Password updated ✅",
+
+
+  "noEmailPasswordLogin": "This account has no email/password login.",
+
+  "failed": "Failed",
+  "error": "Error",
+
+
+  "update": "Update",
+
+  "selectLanguage": "Select Language",
+  "save": "Save",
+  "languageEnglish": "English",
+  "languageFrench": "French",
+
+
+
+
+  "catHome": "Home",
+  "catOthers": "Others",
+
+  "newCondition": "New",
+  "used": "Used",
+  "msgLoginRequired": "Please log in to continue.",
+
+  "paymentSuccessTitle": "Payment successful",
+  "paymentSuccessBody": "Your upgrade was successful. Pro features will be activated shortly.",
+  "paymentCanceledTitle": "Payment canceled",
+  "paymentCanceledBody": "The upgrade process was canceled. No charges were made.",
+  "done": "Done",
+  "back": "Back"
+
+
+
+
+}
